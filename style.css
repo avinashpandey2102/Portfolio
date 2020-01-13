@@ -87,14 +87,4 @@ font-size: 100px;
 .carousel-control {
   margin: 0 10%;
 }
-@media (max-width: 10800px) {
-#title{text-align: center;}
-#skills{
-    background-color: #000000;
-}
-.fas.fab {
-  color: #ef8172;
-  margin-bottom: 1rem;
-  width: 200px;
-  padding: 5%;
-}
+
