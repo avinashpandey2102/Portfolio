@@ -6,9 +6,14 @@
 #title {
   background-color: #000000;
 }
+.navbar-brand {
+  font-family: "Ubuntu";
+  margin-left: 50px;
+  font-size: 6rem;
+}
 
 .container-fluid {
-  padding: 5% 10% 0 10%;
+  padding: 10% 10% 0 10%;
   text-align: left;
   margin-right: 10%;
 }
@@ -36,6 +41,9 @@ h1 {
 }
 
 /* Skills-education */
+.skills-heading{
+font-size: 100px;
+}
 #skills {
   text-align: center;
   padding: 1% 1%;
@@ -47,16 +55,12 @@ h1 {
   text-align: center;
 }
 
-.fas, .fab {
+.fas,.fab {
   color: #ef8172;
   margin-bottom: 1rem;
 }
 
-.fas:hover {
-  color: #ff4c68
-}
-
-.fab:hover {
+.fas:hover,.fab:hover {
   color: #ff4c68
 }
 
@@ -65,7 +69,7 @@ h1 {
   padding: 5%;
 }
 
-#education {
+#experience {
   padding: 50px;
   text-align: left;
   background-color: #000000;
@@ -82,4 +86,15 @@ h1 {
 
 .carousel-control {
   margin: 0 10%;
+}
+@media (max-width: 720px) {
+#title{text-align: center;}
+#skills{
+    background-color: #000000;
+}
+.fas.fab {
+  color: #ef8172;
+  margin-bottom: 1rem;
+  width: 200px;
+  padding: 5%;
 }
