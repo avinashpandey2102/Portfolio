@@ -1,0 +1,85 @@
+/* Title */
+.container-fluid {
+  padding: 5% 15%;
+}
+
+#title {
+  background-color: #000000;
+}
+
+.container-fluid {
+  padding: 5% 10% 0 10%;
+  text-align: left;
+  margin-right: 10%;
+}
+
+.Heading {
+  text-align: left;
+  margin: auto;
+  color: #233142;
+}
+
+h1 {
+  text-align: left;
+  margin: auto;
+  color: #ff4c68;
+}
+
+.title-image {
+  width: 500px;
+  margin-left: 40px;
+}
+
+.btn {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* Skills-education */
+#skills {
+  text-align: center;
+  padding: 1% 1%;
+  background-color: #fff;
+  position: relative;
+}
+
+.h2 {
+  text-align: center;
+}
+
+.fas, .fab {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.fas:hover {
+  color: #ff4c68
+}
+
+.fab:hover {
+  color: #ff4c68
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+#education {
+  padding: 50px;
+  text-align: left;
+  background-color: #000000;
+  color: #fff;
+}
+
+.carousel-para {
+  padding-top: 2%;
+}
+
+.carousel-inner {
+  padding: 5% 20%;
+}
+
+.carousel-control {
+  margin: 0 10%;
+}
