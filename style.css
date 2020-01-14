@@ -6,6 +6,7 @@
 #title {
   background-color: #000000;
 }
+
 .navbar-brand {
   font-family: "Ubuntu";
   margin-left: 50px;
@@ -41,9 +42,11 @@ h1 {
 }
 
 /* Skills-education */
-.skills-heading{
-font-size: 100px;
+.skills-heading {
+  font-size: 50px;
+  text-align: center;
 }
+
 #skills {
   text-align: center;
   padding: 1% 1%;
@@ -51,16 +54,12 @@ font-size: 100px;
   position: relative;
 }
 
-.h2 {
-  text-align: center;
-}
-
-.fas,.fab {
+.fas, .fab {
   color: #ef8172;
   margin-bottom: 1rem;
 }
 
-.fas:hover,.fab:hover {
+.fas:hover, .fab:hover {
   color: #ff4c68
 }
 
@@ -88,3 +87,52 @@ font-size: 100px;
   margin: 0 10%;
 }
 
+/* Education */
+#Education {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.horizontal-timeline {
+  position: relative;
+  height: 10px;
+  background: #000000;
+  margin: 5% 0;
+}
+
+.arrow-up, .arrow-down {
+  position: absolute;
+  vertical-align: baseline;
+}
+
+.arrow-down {
+  bottom: -20px;
+  width: 50px;
+ height: 50px;
+ background: #ff4c68;
+ border-radius: 50px;
+ position: absolute;
+ border: 3px solid #000000;
+ cursor: pointer;
+}
+.Education-para{
+  padding-top: 2px;
+  margin-top: 2px;
+}
+
+
+@media (max-width: 1080px) {
+  #title {
+    text-align: center;
+  }
+
+  #skills {
+    background-color: #000000;
+  }
+
+  .fas.fab {
+    color: #ef8172;
+    margin-bottom: 1rem;
+    width: 200px;
+    padding: 5%;
+  }
