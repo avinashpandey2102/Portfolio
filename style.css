@@ -1,7 +1,4 @@
 /* Title */
-.container-fluid {
-  padding: 5% 15%;
-}
 
 #title {
   background-color: #000000;
@@ -103,7 +100,7 @@ h1 {
 .arrow-up, .arrow-down {
   position: absolute;
   vertical-align: baseline;
-}
+} .
 
 .arrow-down {
   bottom: -20px;
