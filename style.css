@@ -1,4 +1,11 @@
 /* Title */
+.body{
+  margin: 0px;
+  padding: 0px;
+}
+.container-fluid {
+  padding: 5% 15%;
+}
 
 #title {
   background-color: #000000;
@@ -6,18 +13,17 @@
 
 .navbar-brand {
   font-family: "Ubuntu";
-  margin-left: 50px;
+  padding-left: : 50px;
   font-size: 6rem;
 }
 
 .container-fluid {
-  padding: 10% 0% 0 10%;
+  padding: 10% 10% 0 10%;
   text-align: left;
 }
 
 .Heading {
   text-align: left;
-  margin: auto;
   color: #233142;
 }
 
@@ -99,7 +105,7 @@ h1 {
 .arrow-up, .arrow-down {
   position: absolute;
   vertical-align: baseline;
-} .
+}
 
 .arrow-down {
   bottom: -20px;
@@ -114,7 +120,7 @@ h1 {
 .Education-para{
   padding-top: 2px;
   margin-top: 2px;
-} 
+}
 
 
 @media (max-width: 1080px) {
